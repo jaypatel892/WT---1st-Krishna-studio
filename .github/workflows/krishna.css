@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+/* Portfolio Section */
+#portfolio img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+}
+
+/* Services Section */
+#services i {
+    color: #007bff;
+}
+
+#services h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* About Section */
+#about img {
+    border-radius: 8px;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
